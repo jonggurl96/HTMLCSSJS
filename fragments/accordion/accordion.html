@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="accordion.css">
+	<script src="../.jquery/jquery.js"></script>
+    <script src="accordion.js"></script>
+</head>
+<body>
+    <div class="folding-containers-box">
+	    <h1>summary tag accordion</h1>
+        <div class="folding-container">
+            <details class="title">
+                <summary><span>펼치기 1</span></summary>
+                <div class="box red"></div>
+            </details>
+        </div>
+        <div class="folding-container">
+            <details class="title">
+                <summary><span>펼치기 2</span></summary>
+                <div class="box green"></div>
+            </details>
+        </div>
+        <div class="folding-container">
+            <details class="title">
+                <summary><span>펼치기 3</span></summary>
+                <div class="box blue"></div>
+            </details>
+        </div>
+
+	    <h1>jQuery accordion</h1>
+	    <div class="jq-title">펼치기 1</div>
+	    <div class="jq-content">
+		    <ul>
+			    <li>내용 1</li>
+			    <li>내용 2</li>
+		    </ul>
+	    </div>
+	    <div class="jq-title">펼치기 2</div>
+	    <div class="jq-content">
+		    <ul>
+			    <li>내용 3</li>
+			    <li>내용 4</li>
+		    </ul>
+	    </div>
+	    <div class="jq-title">펼치기 3</div>
+	    <div class="jq-content">
+		    <ul>
+			    <li>내용 5</li>
+			    <li>내용 6</li>
+		    </ul>
+	    </div>
+    </div>
+</body>
+</html>

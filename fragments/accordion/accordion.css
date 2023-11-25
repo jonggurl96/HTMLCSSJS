@@ -1,0 +1,59 @@
+.folding-containers-box {
+    width: 80%;
+    height: 700px;
+    margin: 30px auto;
+    border: 1px dotted orangered;
+}
+
+.folding-container {
+    width: 100%;
+    margin: 10px 0 10px 10px;
+    cursor: pointer;
+}
+
+.box {
+    width: 80%;
+    height: 50px;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.jq-title {
+    margin: 5px 3px;
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+}
+
+.jq-title::before {
+    content: "+ ";
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.jq-title.accordi-active {
+    background-color: antiquewhite;
+}
+
+.jq-title.accordi-active::before {
+    content: "- ";
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.jq-content {
+    display: none;
+}
+
+.jq-content li {
+    border-bottom: 1px dotted lightgray;
+}
