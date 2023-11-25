@@ -9,3 +9,6 @@
 
 ## 3. Accordion - [바로가기](accordion)
 ![accordion](resources/gifs/accordion.gif)
+
+## 4. Slider - [바로가기](slider)
+![slider](resources/gifs/slider.gif)
